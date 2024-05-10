@@ -9,9 +9,9 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) throws Exception{
         Scanner input1 = new Scanner(System.in);
-        System.out.println("作者姓名：殷子铭");
-        System.out.println("班级：计算机科学与技术全英创新班");
-        System.out.println("202230430316");
+        System.out.println("作者姓名：yzm");
+        System.out.println("班级：xxxxx班");
+        System.out.println("xxxxxxx");
         System.out.println("请输入需要分析的程序文件(该文件请放入resource文件夹下)");
         String temp = input1.next();
         URL url1 = Main.class.getResource("/"+temp);
